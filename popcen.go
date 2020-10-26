@@ -10,7 +10,6 @@ import (
 	"github.com/reconditematter/geomys"
 	"io"
 	"os"
-	"runtime"
 	"sort"
 	"strconv"
 	"sync"
@@ -31,7 +30,6 @@ func main() {
 		npar = 256
 	}
 	//
-	runtime.GOMAXPROCS(npar)
 	ps := read()
 	fmt.Println("nrec", len(ps), "npar", npar)
 	//
