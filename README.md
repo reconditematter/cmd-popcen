@@ -16,7 +16,7 @@ After all computations are completed, the command prints ten most central points
 
 The implementation of this "pleasingly parallel" problem runs `<npar>` goroutines concurrently.
 
-Below it the output from `cmd-popcen < OHlatlon.txt` running on a 4-core laptop:
+Below it the output from `cmd-popcen {1|2|3|4} < OHlatlon.txt` running on a 4-core laptop:
 
 	rec 243021 npar 1
 	time 6298215 ms
